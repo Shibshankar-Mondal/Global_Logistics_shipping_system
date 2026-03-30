@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first_nav_bar{
+    height: 5vh;
+    width: 100vw;
+    background-color: rgb(211, 210, 210);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.second_nav_bar{
+    height: 10vh;
+    width: 100vw;
+    color: aliceblue;
+    box-shadow: 5px 5px 10px gray;
+    display: flex;
+    gap: 50%;
+    align-items: center;
+}
+.s_left_nav{
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 30%; */
+}
+.s_left_nav .logo{
+    height:25%;
+    width: 25%;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.first_nav_bar .f_right_nav a{
+    color: black;
+
+}
+.main_video {
+    height:90vh;
+    max-width: 1550px;
+}
+
+.main_video video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* makes it look better */
+}
