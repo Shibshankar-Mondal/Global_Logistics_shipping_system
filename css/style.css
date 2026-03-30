@@ -35,7 +35,12 @@
 }
 .first_nav_bar .f_right_nav a{
     color: black;
+    text-decoration: none;
 
+}
+.f_right_nav{
+    display: flex;
+    gap: 40px;
 }
 .main_video {
     height:90vh;
@@ -46,4 +51,15 @@
     height: 100%;
     width: 100%;
     object-fit: cover; /* makes it look better */
+}
+.second_nav_bar .s_right_nav a{
+    text-decoration: none;
+    color: black;
+}
+.s_right_nav{
+    display:flex ;
+    gap: 30px;
+}
+.s_left_nav h2{
+    color: black;
 }
